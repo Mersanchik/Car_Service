@@ -1,0 +1,64 @@
+﻿<Window x:Class="CarDealership.WindowEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDealership"
+        mc:Ignorable="d"
+        Height="450" Width="850" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Button x:Name="AddUnderRepair" Width="200" Height="50" Background="Transparent"
+            FontSize="18" Foreground="Black"
+            FontWeight="DemiBold" Margin="0,0,0,0"
+            Click="AddUnderRepairClick">
+                <TextBlock TextAlignment="Center">Изменить состояние <LineBreak/> автомобиля</TextBlock>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!--Системные элементы-->
+            <Grid Grid.Row="0" Background="LightGray">
+                <TextBlock x:Name="Close" Text="❌" FontSize="16" Margin="570 0 0 0" 
+             MouseLeftButtonDown="CloseMouseLeftButtonDown"/>
+                <TextBlock x:Name="Minimized" Text="➖" FontSize="16" Margin="540 0 30 0"
+             MouseLeftButtonDown="MinimizedMouseLeftButtonDown"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <GroupBox x:Name="StatusCar" Visibility="Visible" Header="Машины в ремонте" 
+                     VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="600" Height="420">
+                    <DataGrid x:Name="BaseStatus"  CanUserAddRows="False" CanUserSortColumns="False"
+                    Height="390" Width="590" HorizontalAlignment="Left" IsReadOnly="True"  Grid.Row="1" 
+                    ColumnWidth="*" AutoGenerateColumns="False" Canvas.Left="12" VerticalAlignment="Center"
+                              ItemsSource="{Binding UnderRepair}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Брэнд" Binding="{Binding Car.Brand}"/>
+                            <DataGridTextColumn Header="Модель" Binding="{Binding Car.Model}"/>
+                            <DataGridTextColumn Header="Год" Binding="{Binding Car.Year}"/>
+                            <DataGridTextColumn Header="Цвет" Binding="{Binding Car.Color}"/>
+                            <DataGridTextColumn Header="Номер" Binding="{Binding Car.Number}"/>
+                            <DataGridTextColumn Header="Статус" Binding="{Binding Status}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

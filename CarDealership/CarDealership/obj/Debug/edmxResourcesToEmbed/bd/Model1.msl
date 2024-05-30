@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище CarBaseModelContainer" CdmEntityContainer="CarBaseEntities">
+    <EntitySetMapping Name="Administrators">
+      <EntityTypeMapping TypeName="CarBaseModel.Administrator">
+        <MappingFragment StoreEntitySet="Administrators">
+          <ScalarProperty Name="idAdministrator" ColumnName="idAdministrator" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="id_Role" ColumnName="id_Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="CarBaseModel.Car">
+        <MappingFragment StoreEntitySet="Cars">
+          <ScalarProperty Name="idCar" ColumnName="idCar" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="id_Customer" ColumnName="id_Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompletedWorks">
+      <EntityTypeMapping TypeName="CarBaseModel.CompletedWork">
+        <MappingFragment StoreEntitySet="CompletedWorks">
+          <ScalarProperty Name="idCompleted" ColumnName="idCompleted" />
+          <ScalarProperty Name="id_Order" ColumnName="id_Order" />
+          <ScalarProperty Name="id_Price" ColumnName="id_Price" />
+          <ScalarProperty Name="DateComplite" ColumnName="DateComplite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CarBaseModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="idCustomer" ColumnName="idCustomer" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="CarBaseModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="idEmployee" ColumnName="idEmployee" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="id_Specialization" ColumnName="id_Specialization" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="id_Role" ColumnName="id_Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="CarBaseModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="id_Customer" ColumnName="id_Customer" />
+          <ScalarProperty Name="id_Car" ColumnName="id_Car" />
+          <ScalarProperty Name="id_Employee" ColumnName="id_Employee" />
+          <ScalarProperty Name="DescriptionProblem" ColumnName="DescriptionProblem" />
+          <ScalarProperty Name="DateAdmission" ColumnName="DateAdmission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartsWarehouses">
+      <EntityTypeMapping TypeName="CarBaseModel.PartsWarehouse">
+        <MappingFragment StoreEntitySet="PartsWarehouse">
+          <ScalarProperty Name="idPart" ColumnName="idPart" />
+          <ScalarProperty Name="NamePart" ColumnName="NamePart" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="id_Supplier" ColumnName="id_Supplier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prices">
+      <EntityTypeMapping TypeName="CarBaseModel.Price">
+        <MappingFragment StoreEntitySet="Prices">
+          <ScalarProperty Name="idPrice" ColumnName="idPrice" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price1" ColumnName="Price" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="CarBaseModel.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="idRole" ColumnName="idRole" />
+          <ScalarProperty Name="NameRole" ColumnName="NameRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specializations">
+      <EntityTypeMapping TypeName="CarBaseModel.Specialization">
+        <MappingFragment StoreEntitySet="Specializations">
+          <ScalarProperty Name="idSpecialization" ColumnName="idSpecialization" />
+          <ScalarProperty Name="NameSpec" ColumnName="NameSpec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="CarBaseModel.Supplier">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="idSupplier" ColumnName="idSupplier" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Product" ColumnName="Product" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnderRepairs">
+      <EntityTypeMapping TypeName="CarBaseModel.UnderRepair">
+        <MappingFragment StoreEntitySet="UnderRepair">
+          <ScalarProperty Name="idUnderRepair" ColumnName="idUnderRepair" />
+          <ScalarProperty Name="id_Car" ColumnName="id_Car" />
+          <ScalarProperty Name="id_Employee" ColumnName="id_Employee" />
+          <ScalarProperty Name="id_Part" ColumnName="id_Part" />
+          <ScalarProperty Name="DateStar" ColumnName="DateStar" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

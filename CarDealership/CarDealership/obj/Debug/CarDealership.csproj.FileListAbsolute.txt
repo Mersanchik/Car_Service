@@ -1,0 +1,163 @@
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\App.g.cs
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+H:\БД\4 курс!\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.SuggestedBindingRedirects.cache
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Administrator.g.cs
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Registartion.g.cs
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\App.g.cs
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+H:\БД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+H:\БД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+H:\БД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Administrator.baml
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Registartion.baml
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Customer.g.cs
+H:\БД\пр5\CarDealership\CarDealership\obj\Debug\Customer.baml
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Administrator.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Customer.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Registartion.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\App.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Administrator.baml
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Customer.baml
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\Registartion.baml
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+D:\Просто всё\4 курс\ТРБД\пр5\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Administrator.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarAdd.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Customer.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\EditCar.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Registartion.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\WindowEmployee.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\App.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Administrator.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarAdd.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Customer.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Registartion.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\WindowEmployee.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\EditCar.baml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+D:\Просто всё\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CopyComplete
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Administrator.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarAdd.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Customer.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\EditCar.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Registartion.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\WindowEmployee.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\App.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Administrator.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarAdd.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Customer.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\EditCar.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\Registartion.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\WindowEmployee.baml
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CopyComplete
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+F:\4 курс\ТРБД\пр5\На случай косяков\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+H:\TRBD\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+H:\TRBD\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+H:\TRBD\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+H:\TRBD\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+H:\TRBD\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+H:\TRBD\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+H:\TRBD\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+H:\TRBD\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.SuggestedBindingRedirects.cache
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Administrator.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarAdd.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Customer.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\EditCar.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Registartion.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\WindowEmployee.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\App.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Administrator.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarAdd.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Customer.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\EditCar.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Registartion.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\WindowEmployee.baml
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CopyComplete
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+H:\TRBD\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Registration1.g.cs
+H:\TRBD\CarDealership\CarDealership\obj\Debug\Registration1.baml

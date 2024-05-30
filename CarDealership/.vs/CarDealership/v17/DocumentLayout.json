@@ -1,0 +1,297 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\editcar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\editcar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\editcar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\editcar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\windowemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\windowemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\windowemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\windowemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\caradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\caradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\administrator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\administrator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\registration1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\registration1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\registration1.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\registration1.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\registartion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\registartion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\registartion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\registartion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|d:\\\u043F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0441\u0438\u043D\u044F\u044F\\\u0432\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\trbd\\cardealership\\cardealership\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\administrator.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\administrator.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\caradd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\caradd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\cardealership\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FC5DF0-503A-4F71-8AAC-C13832F339B6}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\MainWindow.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\MainWindow.xaml",
+              "RelativeToolTip": "CarDealership\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:32.128Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CarDealership\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwEYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:17:32.031Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Registartion.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registartion.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\Registartion.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registartion.xaml",
+              "RelativeToolTip": "CarDealership\\Registartion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:33.071Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Registartion.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registartion.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\Registartion.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registartion.xaml.cs",
+              "RelativeToolTip": "CarDealership\\Registartion.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:17:32.588Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Registration1.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registration1.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\Registration1.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registration1.xaml",
+              "RelativeToolTip": "CarDealership\\Registration1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:33.104Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Registration1.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registration1.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\Registration1.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Registration1.xaml.cs",
+              "RelativeToolTip": "CarDealership\\Registration1.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA7wCQAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:17:32.131Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Administrator.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Administrator.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\Administrator.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Administrator.xaml",
+              "RelativeToolTip": "CarDealership\\Administrator.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:32.133Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Administrator.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Administrator.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\Administrator.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Administrator.xaml.cs",
+              "RelativeToolTip": "CarDealership\\Administrator.xaml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAuwGwAAABQAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-29T05:17:32.135Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Customer.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\Customer.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Customer.xaml",
+              "RelativeToolTip": "CarDealership\\Customer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:32.137Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Customer.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\Customer.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\Customer.xaml.cs",
+              "RelativeToolTip": "CarDealership\\Customer.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwDEAAAA2AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-29T05:17:33.073Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowEmployee.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\WindowEmployee.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\WindowEmployee.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\WindowEmployee.xaml",
+              "RelativeToolTip": "CarDealership\\WindowEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:33.109Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\WindowEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\WindowEmployee.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\WindowEmployee.xaml.cs",
+              "RelativeToolTip": "CarDealership\\WindowEmployee.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:17:33.111Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarAdd.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\CarAdd.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\CarAdd.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\CarAdd.xaml",
+              "RelativeToolTip": "CarDealership\\CarAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:33.075Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CarAdd.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\CarAdd.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\CarAdd.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\CarAdd.xaml.cs",
+              "RelativeToolTip": "CarDealership\\CarAdd.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwC4AAAAkAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-29T05:17:33.106Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditCar.xaml",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\EditCar.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\EditCar.xaml",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\EditCar.xaml",
+              "RelativeToolTip": "CarDealership\\EditCar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T05:17:33.125Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditCar.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\EditCar.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\EditCar.xaml.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0441\u0442\u043E \u0432\u0441\u0451\\\u0421\u0438\u043D\u044F\u044F\\\u0412\u0441\u0435 \u043F\u0430\u043F\u043A\u0438 \u0441 \u043A\u043E\u043C\u043F\u0430 4 \u043A\u0443\u0440\u0441\u0430 \u043D\u0430 15.11.23\\TRBD\\CarDealership\\CarDealership\\EditCar.xaml.cs",
+              "RelativeToolTip": "CarDealership\\EditCar.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:17:33.114Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

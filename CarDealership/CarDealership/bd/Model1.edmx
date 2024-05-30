@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище CarBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Administrators">
+          <Key>
+            <PropertyRef Name="idAdministrator" />
+          </Key>
+          <Property Name="idAdministrator" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fname" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Sname" Type="nvarchar(max)" />
+          <Property Name="Login" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar(max)" />
+          <Property Name="id_Role" Type="int" />
+        </EntityType>
+        <EntityType Name="Cars">
+          <Key>
+            <PropertyRef Name="idCar" />
+          </Key>
+          <Property Name="idCar" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Brand" Type="nvarchar(max)" />
+          <Property Name="Model" Type="nvarchar(max)" />
+          <Property Name="Year" Type="int" />
+          <Property Name="Color" Type="nvarchar(max)" />
+          <Property Name="Number" Type="nvarchar" MaxLength="6" />
+          <Property Name="id_Customer" Type="int" />
+        </EntityType>
+        <EntityType Name="CompletedWorks">
+          <Key>
+            <PropertyRef Name="idCompleted" />
+          </Key>
+          <Property Name="idCompleted" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_Order" Type="int" />
+          <Property Name="id_Price" Type="int" />
+          <Property Name="DateComplite" Type="date" />
+        </EntityType>
+        <EntityType Name="Customers">
+          <Key>
+            <PropertyRef Name="idCustomer" />
+          </Key>
+          <Property Name="idCustomer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fname" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Sname" Type="nvarchar(max)" />
+          <Property Name="Phone" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="idEmployee" />
+          </Key>
+          <Property Name="idEmployee" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fname" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Sname" Type="nvarchar(max)" />
+          <Property Name="id_Specialization" Type="int" />
+          <Property Name="Login" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar(max)" />
+          <Property Name="id_Role" Type="int" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="idOrder" />
+          </Key>
+          <Property Name="idOrder" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_Customer" Type="int" />
+          <Property Name="id_Car" Type="int" />
+          <Property Name="id_Employee" Type="int" />
+          <Property Name="DescriptionProblem" Type="nvarchar(max)" />
+          <Property Name="DateAdmission" Type="date" />
+        </EntityType>
+        <EntityType Name="PartsWarehouse">
+          <Key>
+            <PropertyRef Name="idPart" />
+          </Key>
+          <Property Name="idPart" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NamePart" Type="nvarchar(max)" />
+          <Property Name="Count" Type="int" />
+          <Property Name="id_Supplier" Type="int" />
+        </EntityType>
+        <EntityType Name="Prices">
+          <Key>
+            <PropertyRef Name="idPrice" />
+          </Key>
+          <Property Name="idPrice" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Price" Type="money" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="idRole" />
+          </Key>
+          <Property Name="idRole" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameRole" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Specializations">
+          <Key>
+            <PropertyRef Name="idSpecialization" />
+          </Key>
+          <Property Name="idSpecialization" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameSpec" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Suppliers">
+          <Key>
+            <PropertyRef Name="idSupplier" />
+          </Key>
+          <Property Name="idSupplier" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fname" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Sname" Type="nvarchar(max)" />
+          <Property Name="Phone" Type="nvarchar(max)" />
+          <Property Name="Product" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="UnderRepair">
+          <Key>
+            <PropertyRef Name="idUnderRepair" />
+          </Key>
+          <Property Name="idUnderRepair" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_Car" Type="int" />
+          <Property Name="id_Employee" Type="int" />
+          <Property Name="id_Part" Type="int" />
+          <Property Name="DateStar" Type="date" />
+          <Property Name="Status" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK__Administr__id_Ro__4CA06362">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+          <End Role="Administrators" Type="Self.Administrators" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="idRole" />
+            </Principal>
+            <Dependent Role="Administrators">
+              <PropertyRef Name="id_Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cars__id_Custome__5165187F">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="Cars" Type="Self.Cars" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="idCustomer" />
+            </Principal>
+            <Dependent Role="Cars">
+              <PropertyRef Name="id_Customer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Completed__id_Or__6A30C649">
+          <End Role="Orders" Type="Self.Orders" Multiplicity="0..1" />
+          <End Role="CompletedWorks" Type="Self.CompletedWorks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="idOrder" />
+            </Principal>
+            <Dependent Role="CompletedWorks">
+              <PropertyRef Name="id_Order" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Completed__id_Pr__6B24EA82">
+          <End Role="Prices" Type="Self.Prices" Multiplicity="0..1" />
+          <End Role="CompletedWorks" Type="Self.CompletedWorks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prices">
+              <PropertyRef Name="idPrice" />
+            </Principal>
+            <Dependent Role="CompletedWorks">
+              <PropertyRef Name="id_Price" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employee__id_Rol__571DF1D5">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="idRole" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="id_Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employee__id_Spe__5629CD9C">
+          <End Role="Specializations" Type="Self.Specializations" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specializations">
+              <PropertyRef Name="idSpecialization" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="id_Specialization" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Car__5FB337D6">
+          <End Role="Cars" Type="Self.Cars" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cars">
+              <PropertyRef Name="idCar" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Custo__5EBF139D">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="idCustomer" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Customer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Emplo__60A75C0F">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="idEmployee" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Employee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PartsWare__id_Su__5BE2A6F2">
+          <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="0..1" />
+          <End Role="PartsWarehouse" Type="Self.PartsWarehouse" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Suppliers">
+              <PropertyRef Name="idSupplier" />
+            </Principal>
+            <Dependent Role="PartsWarehouse">
+              <PropertyRef Name="id_Supplier" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Ca__7F2BE32F">
+          <End Role="Cars" Type="Self.Cars" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cars">
+              <PropertyRef Name="idCar" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Em__00200768">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="idEmployee" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Employee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Pa__01142BA1">
+          <End Role="PartsWarehouse" Type="Self.PartsWarehouse" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PartsWarehouse">
+              <PropertyRef Name="idPart" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Part" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище CarBaseModelContainer">
+          <EntitySet Name="Administrators" EntityType="Self.Administrators" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cars" EntityType="Self.Cars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CompletedWorks" EntityType="Self.CompletedWorks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PartsWarehouse" EntityType="Self.PartsWarehouse" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prices" EntityType="Self.Prices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Specializations" EntityType="Self.Specializations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Suppliers" EntityType="Self.Suppliers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnderRepair" EntityType="Self.UnderRepair" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Administr__id_Ro__4CA06362" Association="Self.FK__Administr__id_Ro__4CA06362">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Administrators" EntitySet="Administrators" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cars__id_Custome__5165187F" Association="Self.FK__Cars__id_Custome__5165187F">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Cars" EntitySet="Cars" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Completed__id_Or__6A30C649" Association="Self.FK__Completed__id_Or__6A30C649">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="CompletedWorks" EntitySet="CompletedWorks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Completed__id_Pr__6B24EA82" Association="Self.FK__Completed__id_Pr__6B24EA82">
+            <End Role="Prices" EntitySet="Prices" />
+            <End Role="CompletedWorks" EntitySet="CompletedWorks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employee__id_Rol__571DF1D5" Association="Self.FK__Employee__id_Rol__571DF1D5">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Employee" EntitySet="Employee" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employee__id_Spe__5629CD9C" Association="Self.FK__Employee__id_Spe__5629CD9C">
+            <End Role="Specializations" EntitySet="Specializations" />
+            <End Role="Employee" EntitySet="Employee" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Car__5FB337D6" Association="Self.FK__Orders__id_Car__5FB337D6">
+            <End Role="Cars" EntitySet="Cars" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Custo__5EBF139D" Association="Self.FK__Orders__id_Custo__5EBF139D">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Emplo__60A75C0F" Association="Self.FK__Orders__id_Emplo__60A75C0F">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PartsWare__id_Su__5BE2A6F2" Association="Self.FK__PartsWare__id_Su__5BE2A6F2">
+            <End Role="Suppliers" EntitySet="Suppliers" />
+            <End Role="PartsWarehouse" EntitySet="PartsWarehouse" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Ca__7F2BE32F" Association="Self.FK__UnderRepa__id_Ca__7F2BE32F">
+            <End Role="Cars" EntitySet="Cars" />
+            <End Role="UnderRepair" EntitySet="UnderRepair" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Em__00200768" Association="Self.FK__UnderRepa__id_Em__00200768">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="UnderRepair" EntitySet="UnderRepair" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Pa__01142BA1" Association="Self.FK__UnderRepa__id_Pa__01142BA1">
+            <End Role="PartsWarehouse" EntitySet="PartsWarehouse" />
+            <End Role="UnderRepair" EntitySet="UnderRepair" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CarBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Administrator">
+          <Key>
+            <PropertyRef Name="idAdministrator" />
+          </Key>
+          <Property Name="idAdministrator" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="id_Role" Type="Int32" />
+          <NavigationProperty Name="Role" Relationship="Self.FK__Administr__id_Ro__4CA06362" FromRole="Administrators" ToRole="Roles" />
+        </EntityType>
+        <EntityType Name="Car">
+          <Key>
+            <PropertyRef Name="idCar" />
+          </Key>
+          <Property Name="idCar" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Brand" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Model" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Year" Type="Int32" />
+          <Property Name="Color" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Number" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="id_Customer" Type="Int32" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Cars__id_Custome__5165187F" FromRole="Cars" ToRole="Customers" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__id_Car__5FB337D6" FromRole="Cars" ToRole="Orders" />
+          <NavigationProperty Name="UnderRepairs" Relationship="Self.FK__UnderRepa__id_Ca__7F2BE32F" FromRole="Cars" ToRole="UnderRepair" />
+        </EntityType>
+        <EntityType Name="CompletedWork">
+          <Key>
+            <PropertyRef Name="idCompleted" />
+          </Key>
+          <Property Name="idCompleted" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_Order" Type="Int32" />
+          <Property Name="id_Price" Type="Int32" />
+          <Property Name="DateComplite" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Order" Relationship="Self.FK__Completed__id_Or__6A30C649" FromRole="CompletedWorks" ToRole="Orders" />
+          <NavigationProperty Name="Price" Relationship="Self.FK__Completed__id_Pr__6B24EA82" FromRole="CompletedWorks" ToRole="Prices" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="idCustomer" />
+          </Key>
+          <Property Name="idCustomer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Cars" Relationship="Self.FK__Cars__id_Custome__5165187F" FromRole="Customers" ToRole="Cars" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__id_Custo__5EBF139D" FromRole="Customers" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="idEmployee" />
+          </Key>
+          <Property Name="idEmployee" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="id_Specialization" Type="Int32" />
+          <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="id_Role" Type="Int32" />
+          <NavigationProperty Name="Role" Relationship="Self.FK__Employee__id_Rol__571DF1D5" FromRole="Employee" ToRole="Roles" />
+          <NavigationProperty Name="Specialization" Relationship="Self.FK__Employee__id_Spe__5629CD9C" FromRole="Employee" ToRole="Specializations" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__id_Emplo__60A75C0F" FromRole="Employee" ToRole="Orders" />
+          <NavigationProperty Name="UnderRepairs" Relationship="Self.FK__UnderRepa__id_Em__00200768" FromRole="Employee" ToRole="UnderRepair" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="idOrder" />
+          </Key>
+          <Property Name="idOrder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_Customer" Type="Int32" />
+          <Property Name="id_Car" Type="Int32" />
+          <Property Name="id_Employee" Type="Int32" />
+          <Property Name="DescriptionProblem" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DateAdmission" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Car" Relationship="Self.FK__Orders__id_Car__5FB337D6" FromRole="Orders" ToRole="Cars" />
+          <NavigationProperty Name="CompletedWorks" Relationship="Self.FK__Completed__id_Or__6A30C649" FromRole="Orders" ToRole="CompletedWorks" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__id_Custo__5EBF139D" FromRole="Orders" ToRole="Customers" />
+          <NavigationProperty Name="Employee" Relationship="Self.FK__Orders__id_Emplo__60A75C0F" FromRole="Orders" ToRole="Employee" />
+        </EntityType>
+        <EntityType Name="PartsWarehouse">
+          <Key>
+            <PropertyRef Name="idPart" />
+          </Key>
+          <Property Name="idPart" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NamePart" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Count" Type="Int32" />
+          <Property Name="id_Supplier" Type="Int32" />
+          <NavigationProperty Name="Supplier" Relationship="Self.FK__PartsWare__id_Su__5BE2A6F2" FromRole="PartsWarehouse" ToRole="Suppliers" />
+          <NavigationProperty Name="UnderRepairs" Relationship="Self.FK__UnderRepa__id_Pa__01142BA1" FromRole="PartsWarehouse" ToRole="UnderRepair" />
+        </EntityType>
+        <EntityType Name="Price">
+          <Key>
+            <PropertyRef Name="idPrice" />
+          </Key>
+          <Property Name="idPrice" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price1" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CompletedWorks" Relationship="Self.FK__Completed__id_Pr__6B24EA82" FromRole="Prices" ToRole="CompletedWorks" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="idRole" />
+          </Key>
+          <Property Name="idRole" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameRole" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Administrators" Relationship="Self.FK__Administr__id_Ro__4CA06362" FromRole="Roles" ToRole="Administrators" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Employee__id_Rol__571DF1D5" FromRole="Roles" ToRole="Employee" />
+        </EntityType>
+        <EntityType Name="Specialization">
+          <Key>
+            <PropertyRef Name="idSpecialization" />
+          </Key>
+          <Property Name="idSpecialization" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameSpec" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Employee__id_Spe__5629CD9C" FromRole="Specializations" ToRole="Employee" />
+        </EntityType>
+        <EntityType Name="Supplier">
+          <Key>
+            <PropertyRef Name="idSupplier" />
+          </Key>
+          <Property Name="idSupplier" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Product" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="PartsWarehouses" Relationship="Self.FK__PartsWare__id_Su__5BE2A6F2" FromRole="Suppliers" ToRole="PartsWarehouse" />
+        </EntityType>
+        <EntityType Name="UnderRepair">
+          <Key>
+            <PropertyRef Name="idUnderRepair" />
+          </Key>
+          <Property Name="idUnderRepair" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_Car" Type="Int32" />
+          <Property Name="id_Employee" Type="Int32" />
+          <Property Name="id_Part" Type="Int32" />
+          <Property Name="DateStar" Type="DateTime" Precision="0" />
+          <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Car" Relationship="Self.FK__UnderRepa__id_Ca__7F2BE32F" FromRole="UnderRepair" ToRole="Cars" />
+          <NavigationProperty Name="Employee" Relationship="Self.FK__UnderRepa__id_Em__00200768" FromRole="UnderRepair" ToRole="Employee" />
+          <NavigationProperty Name="PartsWarehouse" Relationship="Self.FK__UnderRepa__id_Pa__01142BA1" FromRole="UnderRepair" ToRole="PartsWarehouse" />
+        </EntityType>
+        <Association Name="FK__Administr__id_Ro__4CA06362">
+          <End Role="Roles" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="Administrators" Type="Self.Administrator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="idRole" />
+            </Principal>
+            <Dependent Role="Administrators">
+              <PropertyRef Name="id_Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cars__id_Custome__5165187F">
+          <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="Cars" Type="Self.Car" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="idCustomer" />
+            </Principal>
+            <Dependent Role="Cars">
+              <PropertyRef Name="id_Customer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Car__5FB337D6">
+          <End Role="Cars" Type="Self.Car" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cars">
+              <PropertyRef Name="idCar" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Ca__7F2BE32F">
+          <End Role="Cars" Type="Self.Car" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cars">
+              <PropertyRef Name="idCar" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Completed__id_Or__6A30C649">
+          <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+          <End Role="CompletedWorks" Type="Self.CompletedWork" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="idOrder" />
+            </Principal>
+            <Dependent Role="CompletedWorks">
+              <PropertyRef Name="id_Order" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Completed__id_Pr__6B24EA82">
+          <End Role="Prices" Type="Self.Price" Multiplicity="0..1" />
+          <End Role="CompletedWorks" Type="Self.CompletedWork" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prices">
+              <PropertyRef Name="idPrice" />
+            </Principal>
+            <Dependent Role="CompletedWorks">
+              <PropertyRef Name="id_Price" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Custo__5EBF139D">
+          <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="idCustomer" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Customer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employee__id_Rol__571DF1D5">
+          <End Role="Roles" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="idRole" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="id_Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employee__id_Spe__5629CD9C">
+          <End Role="Specializations" Type="Self.Specialization" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specializations">
+              <PropertyRef Name="idSpecialization" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="id_Specialization" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Orders__id_Emplo__60A75C0F">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="idEmployee" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="id_Employee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Em__00200768">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="idEmployee" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Employee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PartsWare__id_Su__5BE2A6F2">
+          <End Role="Suppliers" Type="Self.Supplier" Multiplicity="0..1" />
+          <End Role="PartsWarehouse" Type="Self.PartsWarehouse" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Suppliers">
+              <PropertyRef Name="idSupplier" />
+            </Principal>
+            <Dependent Role="PartsWarehouse">
+              <PropertyRef Name="id_Supplier" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UnderRepa__id_Pa__01142BA1">
+          <End Role="PartsWarehouse" Type="Self.PartsWarehouse" Multiplicity="0..1" />
+          <End Role="UnderRepair" Type="Self.UnderRepair" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PartsWarehouse">
+              <PropertyRef Name="idPart" />
+            </Principal>
+            <Dependent Role="UnderRepair">
+              <PropertyRef Name="id_Part" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CarBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Administrators" EntityType="Self.Administrator" />
+          <EntitySet Name="Cars" EntityType="Self.Car" />
+          <EntitySet Name="CompletedWorks" EntityType="Self.CompletedWork" />
+          <EntitySet Name="Customers" EntityType="Self.Customer" />
+          <EntitySet Name="Employees" EntityType="Self.Employee" />
+          <EntitySet Name="Orders" EntityType="Self.Order" />
+          <EntitySet Name="PartsWarehouses" EntityType="Self.PartsWarehouse" />
+          <EntitySet Name="Prices" EntityType="Self.Price" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <EntitySet Name="Specializations" EntityType="Self.Specialization" />
+          <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+          <EntitySet Name="UnderRepairs" EntityType="Self.UnderRepair" />
+          <AssociationSet Name="FK__Administr__id_Ro__4CA06362" Association="Self.FK__Administr__id_Ro__4CA06362">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Administrators" EntitySet="Administrators" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cars__id_Custome__5165187F" Association="Self.FK__Cars__id_Custome__5165187F">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Cars" EntitySet="Cars" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Car__5FB337D6" Association="Self.FK__Orders__id_Car__5FB337D6">
+            <End Role="Cars" EntitySet="Cars" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Ca__7F2BE32F" Association="Self.FK__UnderRepa__id_Ca__7F2BE32F">
+            <End Role="Cars" EntitySet="Cars" />
+            <End Role="UnderRepair" EntitySet="UnderRepairs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Completed__id_Or__6A30C649" Association="Self.FK__Completed__id_Or__6A30C649">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="CompletedWorks" EntitySet="CompletedWorks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Completed__id_Pr__6B24EA82" Association="Self.FK__Completed__id_Pr__6B24EA82">
+            <End Role="Prices" EntitySet="Prices" />
+            <End Role="CompletedWorks" EntitySet="CompletedWorks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Custo__5EBF139D" Association="Self.FK__Orders__id_Custo__5EBF139D">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employee__id_Rol__571DF1D5" Association="Self.FK__Employee__id_Rol__571DF1D5">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employee__id_Spe__5629CD9C" Association="Self.FK__Employee__id_Spe__5629CD9C">
+            <End Role="Specializations" EntitySet="Specializations" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Orders__id_Emplo__60A75C0F" Association="Self.FK__Orders__id_Emplo__60A75C0F">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Em__00200768" Association="Self.FK__UnderRepa__id_Em__00200768">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="UnderRepair" EntitySet="UnderRepairs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PartsWare__id_Su__5BE2A6F2" Association="Self.FK__PartsWare__id_Su__5BE2A6F2">
+            <End Role="Suppliers" EntitySet="Suppliers" />
+            <End Role="PartsWarehouse" EntitySet="PartsWarehouses" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UnderRepa__id_Pa__01142BA1" Association="Self.FK__UnderRepa__id_Pa__01142BA1">
+            <End Role="PartsWarehouse" EntitySet="PartsWarehouses" />
+            <End Role="UnderRepair" EntitySet="UnderRepairs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище CarBaseModelContainer" CdmEntityContainer="CarBaseEntities">
+          <EntitySetMapping Name="Administrators">
+            <EntityTypeMapping TypeName="CarBaseModel.Administrator">
+              <MappingFragment StoreEntitySet="Administrators">
+                <ScalarProperty Name="idAdministrator" ColumnName="idAdministrator" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Sname" ColumnName="Sname" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="id_Role" ColumnName="id_Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cars">
+            <EntityTypeMapping TypeName="CarBaseModel.Car">
+              <MappingFragment StoreEntitySet="Cars">
+                <ScalarProperty Name="idCar" ColumnName="idCar" />
+                <ScalarProperty Name="Brand" ColumnName="Brand" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="id_Customer" ColumnName="id_Customer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CompletedWorks">
+            <EntityTypeMapping TypeName="CarBaseModel.CompletedWork">
+              <MappingFragment StoreEntitySet="CompletedWorks">
+                <ScalarProperty Name="idCompleted" ColumnName="idCompleted" />
+                <ScalarProperty Name="id_Order" ColumnName="id_Order" />
+                <ScalarProperty Name="id_Price" ColumnName="id_Price" />
+                <ScalarProperty Name="DateComplite" ColumnName="DateComplite" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="CarBaseModel.Customer">
+              <MappingFragment StoreEntitySet="Customers">
+                <ScalarProperty Name="idCustomer" ColumnName="idCustomer" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Sname" ColumnName="Sname" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="CarBaseModel.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="idEmployee" ColumnName="idEmployee" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Sname" ColumnName="Sname" />
+                <ScalarProperty Name="id_Specialization" ColumnName="id_Specialization" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="id_Role" ColumnName="id_Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="CarBaseModel.Order">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+                <ScalarProperty Name="id_Customer" ColumnName="id_Customer" />
+                <ScalarProperty Name="id_Car" ColumnName="id_Car" />
+                <ScalarProperty Name="id_Employee" ColumnName="id_Employee" />
+                <ScalarProperty Name="DescriptionProblem" ColumnName="DescriptionProblem" />
+                <ScalarProperty Name="DateAdmission" ColumnName="DateAdmission" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PartsWarehouses">
+            <EntityTypeMapping TypeName="CarBaseModel.PartsWarehouse">
+              <MappingFragment StoreEntitySet="PartsWarehouse">
+                <ScalarProperty Name="idPart" ColumnName="idPart" />
+                <ScalarProperty Name="NamePart" ColumnName="NamePart" />
+                <ScalarProperty Name="Count" ColumnName="Count" />
+                <ScalarProperty Name="id_Supplier" ColumnName="id_Supplier" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prices">
+            <EntityTypeMapping TypeName="CarBaseModel.Price">
+              <MappingFragment StoreEntitySet="Prices">
+                <ScalarProperty Name="idPrice" ColumnName="idPrice" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price1" ColumnName="Price" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="CarBaseModel.Role">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="idRole" ColumnName="idRole" />
+                <ScalarProperty Name="NameRole" ColumnName="NameRole" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Specializations">
+            <EntityTypeMapping TypeName="CarBaseModel.Specialization">
+              <MappingFragment StoreEntitySet="Specializations">
+                <ScalarProperty Name="idSpecialization" ColumnName="idSpecialization" />
+                <ScalarProperty Name="NameSpec" ColumnName="NameSpec" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Suppliers">
+            <EntityTypeMapping TypeName="CarBaseModel.Supplier">
+              <MappingFragment StoreEntitySet="Suppliers">
+                <ScalarProperty Name="idSupplier" ColumnName="idSupplier" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Sname" ColumnName="Sname" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Product" ColumnName="Product" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UnderRepairs">
+            <EntityTypeMapping TypeName="CarBaseModel.UnderRepair">
+              <MappingFragment StoreEntitySet="UnderRepair">
+                <ScalarProperty Name="idUnderRepair" ColumnName="idUnderRepair" />
+                <ScalarProperty Name="id_Car" ColumnName="id_Car" />
+                <ScalarProperty Name="id_Employee" ColumnName="id_Employee" />
+                <ScalarProperty Name="id_Part" ColumnName="id_Part" />
+                <ScalarProperty Name="DateStar" ColumnName="DateStar" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

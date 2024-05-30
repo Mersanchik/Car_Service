@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9b85a646183d42e090a6c5a5d24610f8" Name="Diagram1">
+        <EntityTypeShape EntityType="CarBaseModel.Administrator" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Car" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.CompletedWork" Width="1.5" PointX="10.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Customer" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Employee" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Order" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.PartsWarehouse" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Price" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Role" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Specialization" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.Supplier" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarBaseModel.UnderRepair" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="CarBaseModel.FK__Administr__id_Ro__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Cars__id_Custome__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Orders__id_Car__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__UnderRepa__id_Ca__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Completed__id_Or__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Completed__id_Pr__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Orders__id_Custo__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Employee__id_Rol__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Employee__id_Spe__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__Orders__id_Emplo__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__UnderRepa__id_Em__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__PartsWare__id_Su__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="CarBaseModel.FK__UnderRepa__id_Pa__01142BA1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

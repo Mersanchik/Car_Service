@@ -1,0 +1,129 @@
+﻿<Window x:Class="CarDealership.Administrator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDealership"
+        mc:Ignorable="d"
+        Height="450" Width="850" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        WindowStyle="None">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--Меню-->
+        <Grid Grid.Column="0" Background="LightGray">
+            <TreeView  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,0"
+                       Width="250" Height="450" Background="LightGray">
+                <Label Content="Данные" FontWeight="Bold" FontSize="19" />
+                <Label />
+                <TreeViewItem x:Name ="CustomerBase" FontSize="18" Header="Клиент" Selected="CustomerSelected">
+                    <TreeViewItem x:Name="AddCustomer" FontSize="18" Header="Добавить клиента" Selected="AddCustomerSelected"/>
+                    <TreeViewItem x:Name="DeleteCustomer" FontSize="18" Header="Удалить клиента" Selected="DeleteCustomerSelected"/>
+                </TreeViewItem>
+                <Label />
+                <TreeViewItem x:Name="EmployeesBase" FontSize="18" Header="Сотрудник" Selected="EmployeesSelected" >
+                    <TreeViewItem x:Name="AddEmployee" FontSize="18" Header="Добавить сотрудника" Selected="AddEmployeeSelected"/>
+                    <TreeViewItem x:Name="EditPosition" FontSize="18" Header="Изменить должность" Selected="EditPositionSelected"/>
+                    <TreeViewItem x:Name="DeleteEmployee" FontSize="18" Header="Удалить сотрудника" Selected="DeleteEmployeeSelected"/>
+                </TreeViewItem>
+                <Label />
+                <TreeViewItem x:Name="CarBase" Header="Автомобили" FontSize="18" Selected="CarSelected" >
+                    <TreeViewItem  x:Name="AddCars" FontSize="18" Header="Добавить автомобиль" Selected="AddCarsSelected"/>
+                </TreeViewItem>
+                <Label />
+                <TreeViewItem x:Name="Status" FontSize="18" Header="Состояние автомобилей" Selected="StatusSelected" />
+            </TreeView>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!--Системные элементы-->
+            <Grid Grid.Row="0">
+                <TextBlock x:Name="Close" Text="❌" FontSize="16" Margin="570 0 0 0" 
+                    MouseLeftButtonDown="CloseMouseLeftButtonDown"/>
+                <TextBlock x:Name="Minimized" Text="➖" FontSize="16" Margin="540 0 30 0"
+                    MouseLeftButtonDown="MinimizedMouseLeftButtonDown"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <GroupBox x:Name="InfoCustomer" Visibility="Hidden" Header="Информация о клиентах" 
+                          VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="600" Height="420">
+                    <DataGrid x:Name="BaseCustomers"  CanUserAddRows="False" CanUserSortColumns="False"
+                          Height="390" Width="590" HorizontalAlignment="Left" IsReadOnly="True"  Grid.Row="1" 
+                          ColumnWidth="*" AutoGenerateColumns="False" VerticalAlignment="Center">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding Fname}"/>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding Sname}"/>
+                            <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}"/>
+                            <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+
+
+                <GroupBox x:Name="InfoEmployee" Visibility="Hidden" Header="Информация о сотрудниках" 
+                          VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="600" Height="420">
+                    <DataGrid x:Name="BaseEmployee"  CanUserAddRows="False" CanUserSortColumns="False"
+                    Height="390" Width="590" HorizontalAlignment="Left" IsReadOnly="True" 
+                              Grid.Row="1" ColumnWidth="*" AutoGenerateColumns="False" Canvas.Left="12" 
+                              VerticalAlignment="Center" ItemsSource="{Binding Employee}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding Fname}"/>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding Sname}"/>
+                            <DataGridTextColumn Header="Специальность" Binding="{Binding Specialization.NameSpec}"/>
+                            <DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
+                            <DataGridTextColumn Header="Пароль" Binding="{Binding Password}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+
+                <GroupBox x:Name="InfoCar" Visibility="Hidden" Header="Информация о машинах" 
+                     VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="600" Height="420">
+                    <DataGrid x:Name="BaseCars" CanUserAddRows="False" CanUserSortColumns="False"
+                    Height="390" Width="590" HorizontalAlignment="Left" IsReadOnly="True" 
+                            Grid.Row="1" ColumnWidth="*" AutoGenerateColumns="False" Canvas.Left="12" 
+                            VerticalAlignment="Center">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Брэнд" Binding="{Binding Brand}"/>
+                            <DataGridTextColumn Header="Модель" Binding="{Binding Model}"/>
+                            <DataGridTextColumn Header="Год" Binding="{Binding Year}"/>
+                            <DataGridTextColumn Header="Цвет" Binding="{Binding Color}"/>
+                            <DataGridTextColumn Header="Номер" Binding="{Binding Number}"/>
+                            <DataGridTextColumn Header="Владелец" Binding="{Binding Customer.Fname}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+
+                <GroupBox x:Name="InfoStatusCar" Visibility="Hidden" Header="Информация о статусе машины" 
+                VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="600" Height="420">
+                    <DataGrid x:Name="BaseStatusCars" CanUserAddRows="False" CanUserSortColumns="False"
+                    Height="390" Width="590" HorizontalAlignment="Left" IsReadOnly="True" 
+                         Grid.Row="1" ColumnWidth="*" AutoGenerateColumns="False" Canvas.Left="12" 
+                         VerticalAlignment="Center" ItemsSource="{Binding UnderRepair}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Брэнд" Binding="{Binding Car.Brand}"/>
+                            <DataGridTextColumn Header="Модель" Binding="{Binding Car.Model}"/>
+                            <DataGridTextColumn Header="Цвет" Binding="{Binding Car.Color}"/>
+                            <DataGridTextColumn Header="Номер" Binding="{Binding Car.Number}"/>
+                            <DataGridTextColumn Header="Статус" Binding="{Binding Status}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </GroupBox>
+            </Grid>
+
+        </Grid>
+
+        
+
+    </Grid>
+</Window>
